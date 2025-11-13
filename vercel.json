@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/blackworld/:path*",
+      "destination": "/api/proxy"
+    }
+  ]
+}
